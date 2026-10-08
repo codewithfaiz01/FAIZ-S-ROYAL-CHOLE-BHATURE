@@ -1,277 +1,1322 @@
 <!DOCTYPE html>
 <html lang="hi">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAIZ'S ROYAL CHOLE BHATURE | Official Website</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
-    body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0c0806; color: #f3f4f6; }
-    .font-serif-custom { font-family: 'Playfair Display', serif; }
-    .gold-gradient-text { background: linear-gradient(135deg, #FFF099 0%, #D4AF37 50%, #AA7C11 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    @keyframes pulseGlow { 0%, 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.25); } 50% { box-shadow: 0 0 30px rgba(212, 175, 55, 0.6); } }
-    .animate-glow { animation: pulseGlow 3s infinite ease-in-out; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LFT'S ROYAL BITES | Official Website</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0c0806;
+            color: #f3f4f6;
+        }
+
+        .font-serif-custom {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(
+                135deg,
+                #FFF099 0%,
+                #D4AF37 50%,
+                #AA7C11 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                box-shadow: 0 0 15px rgba(212, 175, 55, 0.25);
+            }
+
+            50% {
+                box-shadow: 0 0 30px rgba(212, 175, 55, 0.6);
+            }
+        }
+
+        .animate-glow {
+            animation: pulseGlow 3s infinite ease-in-out;
+        }
+
+        .menu-item-hidden {
+            display: none !important;
+        }
+    </style>
 </head>
+
 <body class="min-h-screen pb-12">
 
-  <!-- TOP HEADER -->
-  <header class="sticky top-0 z-40 bg-black/90 backdrop-blur-md border-b border-amber-900/40">
-    <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-400 animate-glow">
-          <img src="lft.jpeg" alt="Faiz Owner" class="w-full h-full object-cover object-top">
-        </div>
-        <div>
-          <h1 class="text-xl font-extrabold font-serif-custom gold-gradient-text">FAIZ'S ROYAL CHOLE BHATURE</h1>
-          <p class="text-xs text-amber-200/80">Rohini Sector 5 • Authentic Chole Bhature</p>
-        </div>
-      </div>
-      <div class="flex items-center space-x-2">
-      <div class="flex items-center space-x-4">
-<a href="#food" class="text-white hover:text-amber-400"onclick="filterMenu('food')">Food</a>
-<a href="#cold-drinks" class="text-white hover:text-amber-400"onclick="filterMenu('cold-Drinks')">Cold Drinks</a>
-<a href="#soft-drinks" class="text-white hover:text-amber-400"onclick="filterMenu('soft-Drinks')">Soft Drinks</a>
-<a href="#desi-drinks" class="text-white hover:text-amber-400"onclick="filterMenu('desi-Drinks')">Desi Drinks</a>
-</div>
-  </header>
+    <!-- ========================================================= -->
+    <!-- HEADER -->
+    <!-- ========================================================= -->
 
-  <!-- HERO OWNER SECTION -->
-  <section class="pt-8 pb-10 px-4 max-w-7xl mx-auto">
-    <div class="bg-gradient-to-r from-amber-950/50 via-stone-900 to-black rounded-3xl p-6 sm:p-10 border border-amber-500/30 text-center md:text-left flex flex-col md:flex-row items-center gap-8">
-      <div class="relative flex-shrink-0">
-        <div class="w-full h-full object-cover object-top sms:w-56 sm:h-56 rounded-full overflow-hidden border-4 border-amber-400 shadow-2xl animate-glow mx-auto">
-          <img src="faizimage.jpeg.jpeg" alt="Faiz - Founder" class="w-full h-full object-cove object-top">
-        </div>
-        <span class="mt-2 inline-block bg-black/90 border border-amber-400/50 text-amber-300 text-xs font-bold px-3 py-1 rounded-full uppercase">
-          <i class="fa-solid fa-crown text-amber-400 mr-1"></i> Owner & Foundersss
-        </span>
-      </div>
-      <div>
-        <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Rohini Sector 5 Special</span>
-        <h2 class="text-3xl sm:text-5xl font-black font-serif-custom text-white mt-3 leading-tight">Authentic Taste, <br><span class="gold-gradient-text">Crafted With Passion</span></h2>
-        <p class="text-gray-300 mt-3 text-sm max-w-xl">Faiz's Royal Chole Bhature mein aapka swagat hai! Authentic aur masaledaar, pure ghee mein taiyaar kiye gaye traditional swaadisht chole bhature ab direct aapke ghar tak deliver kiye jayenge.</p>
-        
-        <div class="mt-6 flex flex-wrap gap-3 justify-center md:justify-start text-xs text-amber-200/90">
-          <div class="bg-stone-900 px-3 py-2 rounded-xl border border-stone-800 flex items-center">
-            <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i> Vijay Vihar Phase 1, Rohini Sector 5, Delhi
-          </div>
-          <div class="bg-stone-900 px-3 py-2 rounded-xl border border-stone-800 flex items-center">
-            <i class="fa-solid fa-phone text-amber-400 mr-2"></i> +91 8057928785
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <header class="sticky top-0 z-40 bg-black/90 backdrop-blur-md border-b border-amber-900/40">
 
-  <!-- MENU SECTION -->
-  <section class="px-4 max-w-7xl mx-auto py-6">
-    <h3 class="text-2xl font-serif-custom gold-gradient-text font-bold mb-6 text-center sm:text-left">Our Royal Menu</h3>
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      
-      <!-- ITEM 1 -->
-       <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between" data-category="food">
-        <div class="flex space-x-4">
-          <img src="https://cdn.uengage.io/uploads/28289/image-674446-1746179354.jpeg"class="w-24 h-24">
-          <div>           
-            <h4 class="font-bold text-white text-base mt-1">CHOLE BHATOORE</h4>
-            <p class="text-xs text-gray-400 mt-1">Fluffy bhature sered with spicy and tangy chickpea curry</p>
-         <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-3 py-1 rounded-full uppercase"\>Veg</span\>
-        </div>
-        </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹100 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Chole%20Bhature" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-        <button onclick="addToCart('Chole Bhature',100)">Add to Cart</button>
-        </div>
-      </div>
+        <div class="max-w-7xl mx-auto px-4 h-auto min-h-20 flex flex-col sm:flex-row items-center justify-between py-3 gap-3">
 
+            <!-- BRAND -->
+            <div class="flex items-center space-x-3">
 
-      <!-- ITEM 2 -->
-      <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between">
-        <div class="flex space-x-4">
-          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSLB7zfxFCFag7Pt9CHnH3wk61PILgDo5CCTxT01YjSmEKOVY6uskLp8qEnLi8sIsAAMBOWo4AGXHUavOeuWowkrR4u4QtSlryJKCwcR837ajLT906ZOcBhwQuomU453tC8azJe5SikPUleEkJhz-FmTQKa8frlxB7tir-_0V97PqF89QHvQfh5iNH/s16000/IMG_20220904_210330.jpg" class="w-24 h-24 rounded-xl object-cover border border-amber-500/20">
-          <div>
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded-full uppercase font-semibold">Food</span>
-            <h4 class="font-bold text-white text-base mt-1">Paneer Chole Bhature</h4>
-            <p class="text-xs text-gray-400 mt-1">Soft paneer cubes in spicy chickpea curry, served with two fluffy bhature</p>
-            
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded font-bold uppercase">Veg</span>
-          </div>
-        </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹150 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Mutton%20Royal%20Biryani" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-       <button onclick="addToCart('Paneer Chole Bhature',150)">Add to Cart</button>
-        </div>
-      </div>
+                <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-amber-400 animate-glow">
+                    <img
+                        src="lft.jpeg"
+                        alt="Faiz Owner"
+                        class="w-full h-full object-cover object-top"
+                    >
+                </div>
 
-      <!-- ITEM 3 -->
-      <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between">
-        <div class="flex space-x-4">
-          <img src="https://t4.ftcdn.net/jpg/02/84/65/61/360_F_284656175_G6SlGTBVl4pg8oXh6jr86cOmKUZjfrym.jpg" class="w-24 h-24 rounded-xl object-cover border border-amber-500/20">
-          <div>
-      
-            <h4 class="font-bold text-white text-base mt-1">Pepsi </h4>
-            <p class="text-xs text-gray-400 mt-1">Kyunki har pal hai khaas, jab Pepsi ho paas</p>
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded font-bold uppercase">Veg</span>
-          </div>
-        </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹50 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Seekh%20Kebab" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-       <button onclick="addToCart('Pepsi',50)">Add to Cart</button>
-        </div>
-      </div>
+                <div>
+                    <h1 class="text-lg sm:text-xl font-extrabold font-serif-custom gold-gradient-text">
+                        LFT'S ROYAL BITES
+                    </h1>
 
-    </div>
-  </section>
+                    <p class="text-[10px] sm:text-xs text-amber-200/80">
+                        Rohini Sector 5 • Authentic Taste
+                    </p>
+                </div>
 
-<!-- ITEM 4 -->
-      <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between">
-        <div class="flex space-x-4">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi4oLX61KSnljLBWxYygBocjYiqJnHNT4ytFxRxtYWKZhpkOU5C214gStk&s=10" class="w-24 h-24 rounded-xl object-cover border border-amber-500/20">
-          <div>
-      
-            <h4 class="font-bold text-white text-base mt-1">Chole Chawal</h4>
-            <p class="text-xs text-gray-400 mt-1">Authentic Delhi-style Chole Chawal, made fresh daily</p>
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded font-bold uppercase">Veg</span>
-          </div>
-        </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹60 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Seekh%20Kebab" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-       <button onclick="addToCart('Chole Chawal',60)">Add to Cart</button>
-        </div>
-      </div>
+            </div>
 
-      <!-- ITEM 5 -->
-      <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between">
-        <div class="flex space-x-4">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0KUwSos7qaj9TW_wqk444T-YBY-LQztpRLlZ70NGeE7q6LQlO6DepEWg&s=10" class="w-24 h-24 rounded-xl object-cover border border-amber-500/20">
-          <div>
-      
-            <h4 class="font-bold text-white text-base mt-1">Rayta</h4>
-            <p class="text-xs text-gray-400 mt-1">Cool down with our refreshing, homemade Raita</p>
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded font-bold uppercase">Veg</span>
-          </div>
-        </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹20 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Seekh%20Kebab" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-       <button onclick="addToCart('Rayta',20)">Add to Cart</button>
+            <!-- CATEGORY BUTTONS -->
+            <div class="flex items-center space-x-2 text-xs sm:text-sm font-medium overflow-x-auto w-full sm:w-auto justify-center pb-1">
+
+                <button
+                    type="button"
+                    onclick="filterMenu('all', this)"
+                    class="category-btn text-black bg-amber-400 hover:bg-amber-300 font-bold px-3 py-1.5 rounded-lg transition whitespace-nowrap"
+                >
+                    All
+                </button>
+
+                <button
+                    type="button"
+                    onclick="filterMenu('food', this)"
+                    class="category-btn text-white hover:text-amber-400 px-3 py-1.5 rounded-lg transition whitespace-nowrap"
+                >
+                    Food
+                </button>
+
+                <button
+                    type="button"
+                    onclick="filterMenu('cold-drinks', this)"
+                    class="category-btn text-white hover:text-amber-400 px-3 py-1.5 rounded-lg transition whitespace-nowrap"
+                >
+                    Cold Drinks
+                </button>
+
+                <button
+                    type="button"
+                    onclick="filterMenu('desi-drinks', this)"
+                    class="category-btn text-white hover:text-amber-400 px-3 py-1.5 rounded-lg transition whitespace-nowrap"
+                >
+                    Desi Drinks
+                </button>
+
+            </div>
 
         </div>
-      </div>
 
-      <!-- ITEM 6 -->
-      <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between">
-        <div class="flex space-x-4">
-          <img src="https://static.toiimg.com/thumb/61050397.cms?imgsize=246859&width=800&height=800" class="w-24 h-24 rounded-xl object-cover border border-amber-500/20">
-          <div>
-      
-            <h4 class="font-bold text-white text-base mt-1">Samosa</h4>
-            <p class="text-xs text-gray-400 mt-1">Crunchy, golden samosas served fresh and hot</p>
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded font-bold uppercase">Veg</span>
-          </div>
+    </header>
+
+
+    <!-- ========================================================= -->
+    <!-- HERO SECTION -->
+    <!-- ========================================================= -->
+
+    <section class="pt-8 pb-10 px-4 max-w-7xl mx-auto">
+
+        <div class="bg-gradient-to-r from-amber-950/50 via-stone-900 to-black rounded-3xl p-6 sm:p-10 border border-amber-500/30 text-center md:text-left flex flex-col md:flex-row items-center gap-8">
+
+            <!-- OWNER IMAGE -->
+            <div class="relative flex-shrink-0">
+
+                <div class="w-40 h-40 sm:w-56 sm:h-56 rounded-full overflow-hidden border-4 border-amber-400 shadow-2xl animate-glow mx-auto">
+                    <img
+                        src="lft.jpeg"
+                        alt="Faiz - Founder"
+                        class="w-full h-full object-cover object-top"
+                    >
+                </div>
+
+                <span class="mt-2 inline-block bg-black/90 border border-amber-400/50 text-amber-300 text-xs font-bold px-3 py-1 rounded-full uppercase">
+                    <i class="fa-solid fa-crown text-amber-400 mr-1"></i>
+                    Owner & Founder
+                </span>
+
+            </div>
+
+            <!-- HERO TEXT -->
+            <div>
+
+                <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Rohini Sector 5 Special
+                </span>
+
+                <h2 class="text-3xl sm:text-5xl font-black font-serif-custom text-white mt-3 leading-tight">
+                    Authentic Taste,
+                    <br>
+                    <span class="gold-gradient-text">
+                        Crafted With Passion
+                    </span>
+                </h2>
+
+                <p class="text-gray-300 mt-3 text-sm max-w-xl">
+                    LFT's Royal Bites mein aapka swagat hai! <br>
+  Yahan milta hai aapko authentic, masaledaar aur pure ghee mein taiyar kiya gaya lajawab food jo seedha aapke ghar tak deliver kiya jayega.
+                </p>
+
+                <div class="mt-6 flex flex-wrap gap-3 justify-center md:justify-start text-xs text-amber-200/90">
+
+                    <div class="bg-stone-900 px-3 py-2 rounded-xl border border-stone-800 flex items-center">
+                        <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i>
+                        Vijay Vihar Phase 1, Rohini Sector 5, Delhi
+                    </div>
+
+                    <div class="bg-stone-900 px-3 py-2 rounded-xl border border-stone-800 flex items-center">
+                        <i class="fa-solid fa-phone text-amber-400 mr-2"></i>
+                        +91 8057928785
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹20 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Seekh%20Kebab" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-        <button onclick="addToCart('Samosa',20)">Add to Cart</button>
+
+    </section>
+
+
+    <!-- ========================================================= -->
+    <!-- MENU SECTION -->
+    <!-- ========================================================= -->
+
+    <section class="px-4 max-w-7xl mx-auto py-6">
+
+        <h3 class="text-2xl font-serif-custom gold-gradient-text font-bold mb-6 text-center sm:text-left">
+            Our Royal Menu
+        </h3>
+
+        <div
+            id="menu-grid"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+
+            <!-- ================================================= -->
+            <!-- ITEM 1 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="food"
+                data-name="Chole Bhature"
+                data-price="100"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://cdn.uengage.io/uploads/28289/image-Y2R112-1740052250.jpg"
+                        alt="Chole Bhature"
+                        class="w-full h-70 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Chole Bhature
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Authentic Punjabi taste
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹100
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ITEM 2 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="food"
+                data-name="Paneer Chole Bhature"
+                data-price="150"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSLB7zfxFCFag7Pt9CHnH3wk61PILgDo5CCTxT01YjSmEKOVY6uskLp8qEnLi8sIsAAMBOWo4AGXHUavOeuWowkrR4u4QtSlryJKCwcR837ajLT906ZOcBhwQuomU453tC8azJe5SikPUleEkJhz-FmTQKa8frlxB7tir-_0V97PqF89QHvQfh5iNH/s1080/IMG_20220904_210330.jpg"
+                        alt="Paneer Chole Bhature"
+                        class="w-full h-70 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Paneer Chole Bhature
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Paneer with royal chole bhature
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹150
+
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ITEM 3 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="cold-drinks"
+                data-name="Pepsi"
+                data-price="50"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://t4.ftcdn.net/jpg/02/84/65/61/360_F_284656175_G6SlGTBVl4pg8oXh6jr86cOmKUZjfrym.jpg"
+                        alt="Pepsi"
+                        class="w-full h-80 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Pepsi
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Chilled cold drink
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹50
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ITEM 4 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="food"
+                data-name="Chole Chawal"
+                data-price="60"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/chhole_chawal.jpg"
+                        alt="Chole Chawal"
+                        class="w-full h-70 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Chole Chawal
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Delicious chole with rice
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹60
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ITEM 5 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="desi-drinks"
+                data-name="Rayta"
+                data-price="20"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0KUwSos7qaj9TW_wqk444T-YBY-LQztpRLlZ70NGeE7q6LQlO6DepEWg&s=10"
+                        alt="Rayta"
+                        class="w-full h-80 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Rayta
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Fresh and creamy rayta
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹20
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ITEM 6 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="food"
+                data-name="Samosa"
+                data-price="20"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://static.toiimg.com/thumb/61050397.cms?imgsize=246859&width=800&height=800"
+                        alt="Samosa"
+                        class="w-full h-70 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Samosa
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Crispy and spicy samosa
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹20
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ITEM 7 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="desi-drinks"
+                data-name="Chai"
+                data-price="20"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg"
+                        alt="Chai"
+                        class="w-full h-60 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Chai
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Hot Indian masala chai
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹20
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ITEM 8 -->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="food"
+                data-name="ALOO PARATHA"
+                data-price="50"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://cookingfromheart.com/wp-content/uploads/2020/09/Aloo-Paratha-4.jpg"
+                        alt="ALOO PARATHA"
+                        class="w-full h-60 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                ALOO PARATHA
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Hot stuffed aloo paratha
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹50
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- ================================================= -->
+            <!-- ITEM 9-->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="food"
+                data-name="VEG CHEESE BURGER"
+                data-price="100"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWrN6eXWWFfIgt7c1txDTPM4T2znjhY8SdAHbZBU1Ow&s=10"
+                        alt="VEG CHEESE BURGER"
+                        class="w-full h-60 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Veg Cheese Burger
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Jab bhook lage zordar, toh LFT's ka burger hai sabse behtar! 🍔😋
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹50
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- ================================================= -->
+            <!-- ITEM 10-->
+            <!-- ================================================= -->
+
+            <div
+                class="menu-item bg-stone-900/90 border border-amber-500/20 rounded-2xl p-5 shadow-xl flex flex-col justify-between"
+                data-category="food"
+                data-name="VEG PIZZA"
+                data-price="100"
+            >
+
+                <div class="mb-5 overflow-hidden rounded-2xl border border-amber-500/20 bg-black/30">
+
+                    <img
+                        src="https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/HomeProductV1/5e7b1ee7-8927-48f6-9191-75adbd927378_peppypaneersidejpgFull2x2702.webp"
+                        alt="VEG PIZZA"
+                        class="w-full h-60 object-cover"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div>
+                    <div class="flex justify-between items-start gap-3">
+                        <div>
+                            <h4 class="text-xl font-bold text-white">
+                                Veg Pizza
+                            </h4>
+                            <p class="text-gray-400 text-sm mt-1">
+                                Perfect crust, melting cheese aur top-notch toppings — grab your slice of happiness today! 🍕🔥
+                            </p>
+                        </div>
+
+                        <span class="text-amber-400 font-bold text-lg">
+                            ₹100
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mt-5 cart-actions">
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                </div>
+
+            </div>
+
+
         </div>
-      </div>
 
-      <!-- ITEM 7 -->
-      <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between">
-        <div class="flex space-x-4">
-          <img src="https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg" class="w-24 h-24 rounded-xl object-cover border border-amber-500/20">
-          <div>
-      
-            <h4 class="font-bold text-white text-base mt-1">Chai</h4>
-            <p class="text-xs text-gray-400 mt-1">Hot, kadak chai—brewed with love and desi spices</p>
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded font-bold uppercase">Veg</span>
-          </div>
+    </section>
+
+
+    <!-- ========================================================= -->
+    <!-- CART PREVIEW -->
+    <!-- ========================================================= -->
+
+    <section class="px-4 max-w-7xl mx-auto mt-8">
+
+        <div
+            id="cart-display"
+            class="bg-stone-900/90 border border-amber-500/30 rounded-2xl p-6 shadow-2xl"
+        >
+
+            <a
+                href="cart.html"
+                class="block text-xl font-serif-custom gold-gradient-text font-bold mb-4"
+            >
+                🛒 Your Cart
+            </a>
+
+            <ul
+                id="cart-list"
+                class="space-y-3 text-sm text-gray-300"
+            >
+                <li class="text-gray-500 italic text-center py-4">
+                    🛒 Cart is empty
+                    <br>
+                    <span class="text-xs">
+                        Add your favourite food items 🍽️
+                    </span>
+                </li>
+            </ul>
+
         </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹20 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Seekh%20Kebab" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-        <button onclick="addToCart('Chai',20)">Add to Cart</button>
-        </div>
-      </div>
+
+    </section>
 
 
-      <!-- ITEM -->
-      <div class="bg-stone-900/80 border border-amber-900/30 rounded-2xl p-4 flex flex-col justify-between">
-        <div class="flex space-x-4">
-          <img src="https://cookingfromheart.com/wp-content/uploads/2020/09/Aloo-Paratha-4.jpg" class="w-24 h-24 rounded-xl object-cover border border-amber-500/20">
-          <div>
-      
-            <h4 class="font-bold text-white text-base mt-1">ALOO PARATHA</h4>
-            <p class="text-xs text-gray-400 mt-1">Desi ghee mein sekhe hue garma-garam aloo parathe, sath mein dahi aur achar ka mazaa</p>
-            <span class="text-[10px] bg-green-950 text-green-400 border border-green-800 px-1.5 py-0.5 rounded font-bold uppercase">Veg</span>
-          </div>
-        </div>
-        <div class="mt-4 flex items-center justify-between border-t border-stone-800 pt-3">
-          <span class="text-amber-400 font-extrabold text-lg">₹50 <span class="text-xs text-gray-400 font-normal"></span></span>
-          <a href="https://wa.me/918057928785?text=I%20want%20to%20order%20Seekh%20Kebab" class="bg-amber-500 text-black px-4 py-1.5 rounded-xl font-bold text-xs hover:bg-amber-400">Order Now</a>
-        <button onclick="addToCart('ALOO PARATHA',50)">Add to Cart</button>
-        </div>
-      </div>
-      
+    <!-- ========================================================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================================================= -->
 
-      <script>
+    <script>
 
-  let cart = [];
+        /* ---------------------------------------------------------
+           CART DATA
+        --------------------------------------------------------- */
 
-function addToCart(name, price) {
-    let existingItem = cart.find(item => item.name === name);
-    if (existingItem) {
-        existingItem.quantity += 1;
-    } else {
-        cart.push({ name: name, price: price, quantity: 1 });
-    }
-    alert(name + " added to cart!");
-    updateCartDisplay();
-}
+        let cart = [];
 
-function updateCartDisplay() {
-    let cartList = document.getElementById('cart-list');
-    cartList.innerHTML = '';
-    let total = 0;
-    
-    cart.forEach(item => {
-        total += item.price * item.quantity;
-        let li = document.createElement('li');
-        li.innerText = `${item.name} - ₹${item.price} x ${item.quantity}`;
-        cartList.appendChild(li);
-    });
-    
-    let totalLi = document.createElement('li');
-    totalLi.innerText = `Total: ₹${total}`;
-    cartList.appendChild(totalLi);
-let checkoutBtn = document.createElement('button');
-checkoutBtn.innerText = "Checkout";
-checkoutBtn.onclick = function() {
-    let upiUrl = "upi://pay?pa=8057928785@ybl&pn=Faiz&am=${total}&cu=INR";
-window.location.href = upiUrl;
-};
-cartList.appendChild(checkoutBtn);
-}
-function filterMenu(category) {
-    const items = document.querySelectorAll('.item-container');
-    items.forEach(item => {
-        if (category === 'all' || item.dataset.category === category) {
-            item.style.display = 'block';
-        } else {
-            item.style.display = 'none';
+
+        /* ---------------------------------------------------------
+           LOAD CART FROM LOCAL STORAGE
+        --------------------------------------------------------- */
+
+        function loadCart() {
+
+            try {
+
+                const savedCart = localStorage.getItem('cart');
+
+                if (savedCart) {
+                    const parsedCart = JSON.parse(savedCart);
+
+                    if (Array.isArray(parsedCart)) {
+                        cart = parsedCart;
+                    }
+                }
+
+            } catch (error) {
+
+                console.error('Cart load error:', error);
+                cart = [];
+
+            }
+
         }
-    });
-}
-</script>
-<div id="cart-display"> <h3>Your Cart</h3>  <ul id="cart-list"></ul> </div>
+
+
+        /* ---------------------------------------------------------
+           SAVE CART
+        --------------------------------------------------------- */
+
+        function saveCart() {
+
+            localStorage.setItem(
+                'cart',
+                JSON.stringify(cart)
+            );
+
+        }
+
+
+        /* ---------------------------------------------------------
+           ADD MENU ITEM
+        --------------------------------------------------------- */
+
+        function addMenuItem(button) {
+
+            const menuItem = button.closest('.menu-item');
+
+            if (!menuItem) {
+                return;
+            }
+
+            const name = menuItem.dataset.name;
+            const price = Number(menuItem.dataset.price);
+
+            addToCart(name, price);
+
+            updateMenuQuantity(menuItem);
+
+        }
+
+
+        /* ---------------------------------------------------------
+           ADD TO CART
+        --------------------------------------------------------- */
+
+        function addToCart(name, price) {
+
+            const existingItem = cart.find(
+                item => item.name === name
+            );
+
+            if (existingItem) {
+
+                existingItem.quantity += 1;
+
+            } else {
+
+                cart.push({
+                    name: name,
+                    price: price,
+                    quantity: 1
+                });
+
+            }
+
+            saveCart();
+            updateCartDisplay();
+
+        }
+
+
+        /* ---------------------------------------------------------
+           REMOVE ONE ITEM
+        --------------------------------------------------------- */
+
+        function removeFromCart(name) {
+
+            const existingItem = cart.find(
+                item => item.name === name
+            );
+
+            if (!existingItem) {
+                return;
+            }
+
+            if (existingItem.quantity > 1) {
+
+                existingItem.quantity -= 1;
+
+            } else {
+
+                cart = cart.filter(
+                    item => item.name !== name
+                );
+
+            }
+
+            saveCart();
+            updateCartDisplay();
+            updateAllMenuQuantities();
+
+        }
+
+
+        /* ---------------------------------------------------------
+           ADD ONE MORE FROM MENU
+        --------------------------------------------------------- */
+
+        function increaseFromMenu(menuItem) {
+
+            const name = menuItem.dataset.name;
+            const price = Number(menuItem.dataset.price);
+
+            addToCart(name, price);
+
+            updateMenuQuantity(menuItem);
+
+        }
+
+
+        /* ---------------------------------------------------------
+           LESS ONE FROM MENU
+        --------------------------------------------------------- */
+
+        function decreaseFromMenu(menuItem) {
+
+            const name = menuItem.dataset.name;
+
+            removeFromCart(name);
+
+            updateMenuQuantity(menuItem);
+
+        }
+
+
+        /* ---------------------------------------------------------
+           GET ITEM QUANTITY
+        --------------------------------------------------------- */
+
+        function getQuantity(name) {
+
+            const item = cart.find(
+                cartItem => cartItem.name === name
+            );
+
+            if (!item) {
+                return 0;
+            }
+
+            return Number(item.quantity) || 0;
+
+        }
+
+
+        /* ---------------------------------------------------------
+           UPDATE ONE MENU CARD QUANTITY UI
+        --------------------------------------------------------- */
+
+        function updateMenuQuantity(menuItem) {
+
+            const actions = menuItem.querySelector('.cart-actions');
+            const name = menuItem.dataset.name;
+            const quantity = getQuantity(name);
+
+            if (!actions) {
+                return;
+            }
+
+            if (quantity <= 0) {
+
+                actions.innerHTML = `
+                    <button
+                        type="button"
+                        class="add-btn w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-2.5 rounded-xl transition"
+                        onclick="addMenuItem(this)"
+                    >
+                        Add
+                    </button>
+                `;
+
+                return;
+            }
+
+            actions.innerHTML = `
+                <div class="flex items-center justify-between gap-2">
+
+                    <button
+                        type="button"
+                        class="w-12 h-10 rounded-xl bg-stone-800 border border-amber-500/40 text-amber-400 text-xl font-bold hover:bg-stone-700 transition"
+                        onclick="decreaseFromMenu(this.closest('.menu-item'))"
+                    >
+                        −
+                    </button>
+
+                    <div class="flex-1 text-center bg-black/40 border border-amber-500/30 rounded-xl py-2">
+                        <span class="text-amber-400 font-bold">
+                            ${quantity}
+                        </span>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="w-12 h-10 rounded-xl bg-amber-500 text-black text-xl font-bold hover:bg-amber-400 transition"
+                        onclick="increaseFromMenu(this.closest('.menu-item'))"
+                    >
+                        +
+                    </button>
+
+                </div>
+            `;
+
+        }
+
+
+        /* ---------------------------------------------------------
+           UPDATE ALL MENU CARD QUANTITIES
+        --------------------------------------------------------- */
+
+        function updateAllMenuQuantities() {
+
+            document
+                .querySelectorAll('.menu-item')
+                .forEach(menuItem => {
+                    updateMenuQuantity(menuItem);
+                });
+
+        }
+
+
+        /* ---------------------------------------------------------
+           UPDATE CART PREVIEW
+        --------------------------------------------------------- */
+
+        function updateCartDisplay() {
+
+            const cartList = document.getElementById('cart-list');
+
+            if (!cartList) {
+                return;
+            }
+
+            cartList.innerHTML = '';
+
+            if (cart.length === 0) {
+
+                cartList.innerHTML = `
+                    <li class="text-gray-500 italic text-center py-4">
+                        🛒 Cart is empty
+                        <br>
+                        <span class="text-xs">
+                            Add your favourite food items 🍽️
+                        </span>
+                    </li>
+                `;
+
+                return;
+            }
+
+            let total = 0;
+
+
+            /* -----------------------------------------------------
+               CART ITEMS
+            ----------------------------------------------------- */
+
+            cart.forEach(item => {
+
+                const itemTotal =
+                    Number(item.price) * Number(item.quantity);
+
+                total += itemTotal;
+
+                const li = document.createElement('li');
+
+                li.className =
+                    'flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-b border-stone-800 pb-3';
+
+                li.innerHTML = `
+                    <div>
+                        <span class="font-semibold text-white">
+                            ${escapeHtml(item.name)}
+                        </span>
+
+                        <span class="text-gray-400 ml-1">
+                            (₹${item.price} × ${item.quantity})
+                        </span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+
+                        <span class="font-bold text-amber-400">
+                            ₹${itemTotal}
+                        </span>
+
+                        <button
+                            type="button"
+                            class="text-xs text-amber-500 border border-amber-500/30 px-3 py-1 rounded-lg hover:bg-amber-500 hover:text-black transition"
+                            onclick="removeFromCart('${escapeJs(item.name)}')"
+                        >
+                            LESS
+                        </button>
+
+                    </div>
+                `;
+
+                cartList.appendChild(li);
+
+            });
+
+
+            /* -----------------------------------------------------
+               TOTAL
+            ----------------------------------------------------- */
+
+            const totalLi = document.createElement('li');
+
+            totalLi.className =
+                'flex justify-between items-center pt-4 font-bold text-base text-white';
+
+            totalLi.innerHTML = `
+                <span>
+                    Total:
+                </span>
+
+                <span class="text-amber-400 text-xl">
+                    ₹${total}
+                </span>
+            `;
+
+            cartList.appendChild(totalLi);
+
+
+            /* -----------------------------------------------------
+               CART BUTTONS
+            ----------------------------------------------------- */
+
+            const buttonWrapper = document.createElement('li');
+
+            buttonWrapper.className =
+                'pt-4 flex flex-col sm:flex-row justify-end gap-3';
+
+            buttonWrapper.innerHTML = `
+                <a
+                    href="cart.html"
+                    class="text-center bg-stone-800 border border-amber-500/30 text-amber-300 px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-stone-700 transition"
+                >
+                    View Full Cart
+                </a>
+
+                <button
+                    type="button"
+                    class="bg-amber-500 text-black px-6 py-2.5 rounded-xl font-bold text-sm hover:bg-amber-400 shadow-lg transition"
+                    onclick="payViaUPI(${total})"
+                >
+                    Pay via UPI
+                </button>
+            `;
+
+            cartList.appendChild(buttonWrapper);
+
+        }
+
+
+        /* ---------------------------------------------------------
+           SAFE HTML TEXT
+        --------------------------------------------------------- */
+
+        function escapeHtml(value) {
+
+            return String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+
+        }
+
+
+        /* ---------------------------------------------------------
+           SAFE JAVASCRIPT STRING
+        --------------------------------------------------------- */
+
+        function escapeJs(value) {
+
+            return String(value)
+                .replace(/\\/g, '\\\\')
+                .replace(/'/g, "\\'");
+
+        }
+
+
+        /* ---------------------------------------------------------
+           UPI PAYMENT
+        --------------------------------------------------------- */
+
+        function payViaUPI(total) {
+
+            if (!total || total <= 0) {
+                return;
+            }
+
+            const upiUrl =
+                `upi://pay?pa=8057928785@ybl&pn=Faiz&am=${total}&cu=INR`;
+
+            window.location.href = upiUrl;
+
+        }
+
+
+        /* ---------------------------------------------------------
+           CATEGORY FILTER
+        --------------------------------------------------------- */
+
+        function filterMenu(category, button) {
+
+            /* Reset every category button */
+
+            document
+                .querySelectorAll('.category-btn')
+                .forEach(btn => {
+
+                    btn.className =
+                        'category-btn text-white hover:text-amber-400 px-3 py-1.5 rounded-lg transition whitespace-nowrap';
+
+                });
+
+
+            /* Highlight selected button */
+
+            if (button) {
+
+                button.className =
+                    'category-btn text-black bg-amber-400 hover:bg-amber-300 font-bold px-3 py-1.5 rounded-lg transition whitespace-nowrap';
+
+            }
+
+
+            /* Show/hide menu cards */
+
+            document
+                .querySelectorAll('.menu-item')
+                .forEach(item => {
+
+                    const itemCategory = item.dataset.category;
+
+                    if (
+                        category === 'all' ||
+                        itemCategory === category
+                    ) {
+
+                        item.classList.remove('menu-item-hidden');
+
+                    } else {
+
+                        item.classList.add('menu-item-hidden');
+
+                    }
+
+                });
+
+        }
+
+
+        /* ---------------------------------------------------------
+           INITIALIZE PAGE
+        --------------------------------------------------------- */
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            loadCart();
+
+            updateCartDisplay();
+
+            updateAllMenuQuantities();
+
+            const allButton =
+                document.querySelector('.category-btn');
+
+            if (allButton) {
+                filterMenu('all', allButton);
+            }
+
+        });
+
+
+        /* ---------------------------------------------------------
+           SYNC CART BETWEEN TABS / CART.HTML
+        --------------------------------------------------------- */
+
+        window.addEventListener('storage', function (event) {
+
+            if (event.key !== 'cart') {
+                return;
+            }
+
+            loadCart();
+
+            updateCartDisplay();
+
+            updateAllMenuQuantities();
+
+        });
+
+    </script>
+
 </body>
+
 </html>
